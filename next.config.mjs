@@ -10,7 +10,6 @@ const nextConfig = {
     domains: [],
     remotePatterns: [],
   },
-  swcMinify: true,
   reactStrictMode: true,
 }
 
