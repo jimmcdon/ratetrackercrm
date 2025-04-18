@@ -7,8 +7,11 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    domains: [],
+    remotePatterns: [],
   },
+  swcMinify: true,
+  reactStrictMode: true,
 }
 
 export default nextConfig
